@@ -26,6 +26,7 @@ namespace WebApplication2.Controllers
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                //comment
             })
             .ToArray();
         }
